@@ -1,0 +1,19 @@
+# 上传与本地文件
+.uploads/
+
+# 依赖与构建产物
+node_modules/
+vendor/
+dist/
+*.zip
+
+# 编辑器与操作系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 临时与日志文件
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,104 @@
+/* 设置页 */
+
+.aca-settings-wrap .aca-tab-panel {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #c3c4c7;
+	border-top: none;
+	margin-bottom: 20px;
+}
+
+.aca-settings-wrap table.form-table th {
+	width: 220px;
+}
+
+.aca-settings-wrap table.widefat td,
+.aca-settings-wrap table.widefat th {
+	vertical-align: middle;
+}
+
+/* 设置页内置的模型快捷填充按钮 */
+.aca-model-presets {
+	margin-top: 6px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+.aca-model-preset {
+	font-size: 12px;
+}
+
+/* 使用记录筛选条 */
+.aca-log-filter {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: center;
+	margin: 0 0 12px;
+	padding: 12px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+}
+.aca-log-filter select {
+	max-width: 220px;
+}
+.aca-log-clear {
+	color: #b32d2e;
+	border-color: #dc3232;
+}
+.aca-log-clear:hover {
+	background: #dc3232;
+	border-color: #dc3232;
+	color: #fff;
+}
+.tablenav-pages .current.button {
+	background: #2271b1;
+	color: #fff;
+	border-color: #2271b1;
+	cursor: default;
+}
+.aca-tab-panel .tablenav {
+	margin: 8px 0 -8px;
+}
+
+/* 测试连接结果弹窗，故意不用 wp.a11y 那套，简单遮罩就够了 */
+.aca-modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 100000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.aca-modal-box {
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+	max-width: 480px;
+	width: 90%;
+	padding: 20px 24px;
+}
+
+.aca-modal-box h3 {
+	margin-top: 0;
+}
+
+#aca-test-modal-title.aca-modal-title-error {
+	color: #b32d2e;
+}
+
+.aca-modal-box #aca-test-modal-message {
+	white-space: pre-wrap;
+	word-break: break-word;
+	line-height: 1.6;
+}
+
+.aca-modal-actions {
+	text-align: right;
+	margin-bottom: 0;
+}

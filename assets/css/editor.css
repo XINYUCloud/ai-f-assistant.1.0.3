@@ -1,0 +1,87 @@
+/* 编辑器面板，Gutenberg 和经典编辑器共用这一份 */
+
+.aca-scope-group {
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+}
+
+.aca-scope-group .components-button {
+	flex: 1;
+	justify-content: center;
+	border-radius: 0;
+}
+
+.aca-processing-hint {
+	color: #666;
+	font-size: 12px;
+	margin: 6px 0 0;
+}
+
+.aca-result-box {
+	margin-top: 14px;
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+}
+
+.aca-result-actions {
+	display: flex;
+	gap: 6px;
+	margin-top: 8px;
+	flex-wrap: wrap;
+}
+
+/* 经典编辑器那边的面板，不套额外容器，直接用 metabox 自带的边框 */
+.aca-classic-panel textarea {
+	font-family: inherit;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.aca-classic-panel .aca-scope-row {
+	font-size: 13px;
+	line-height: 1.8;
+	margin-bottom: 10px;
+}
+
+#aca-lang-wrap label {
+	display: block;
+	margin-bottom: 4px;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+#aca-status-area .notice {
+	margin: 8px 0;
+	padding: 8px 10px;
+}
+
+#aca-summary-hint p {
+	margin: 0.5em 0;
+	font-size: 12px;
+}
+
+/* 范围/结果类型的提示文案 */
+.aca-scope-hint {
+	color: #666;
+	font-size: 12px;
+	margin: 8px 0 0;
+	line-height: 1.5;
+}
+
+.aca-result-meta {
+	color: #667085;
+	font-size: 12px;
+	margin: 6px 0 0;
+}
+
+.aca-result-meta-wrap {
+	margin: 6px 0 0;
+	font-size: 12px;
+	color: #667085;
+}
+
+.aca-classic-panel #aca-body-hint p {
+	margin: 0.5em 0;
+	font-size: 12px;
+}
